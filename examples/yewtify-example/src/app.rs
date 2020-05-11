@@ -42,6 +42,18 @@ impl Component for YouTubeLayout {
                     <y::AppBarNavIcon />
                     <y::Icon large=true icon=y::MdiIcon::Youtube />
                 </y::AppBar>
+                <div>
+                    <y::Btn small=true text=true>{"Small Text"}</y::Btn>
+                    <y::Btn text=true>{"Normal Text"}</y::Btn>
+                    <y::Btn>{"Default"}</y::Btn>
+                    <y::Btn depressed=true>{"Depressed"}</y::Btn>
+                    <y::Btn icon=true><y::Icon icon=y::MdiIcon::Heart /></y::Btn>
+                    <y::Btn outlined=true fab=true><y::Icon icon=y::MdiIcon::FormatListBulleted /></y::Btn>
+                    <y::Btn fixed=true>{"Fixed"}</y::Btn>
+                    <y::Btn tile=true>{"Tile"}</y::Btn>
+                    <y::Btn block=true>{"Block"}</y::Btn>
+                    <y::Btn loading=true>{"Loading"}</y::Btn>
+                </div>
             </y::App>
         }
     }
